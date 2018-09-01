@@ -1,0 +1,44 @@
+#ss_button {
+/*	margin: auto;
+	text-align: center;
+	vertical-align: center;*/
+	background-image: url(images/go.png);
+	background-size: 50px 50px;
+	height: 50px;
+	width: 50px;
+	/*padding: 0;*/
+	border: none;
+}
+
+button {
+	display: inline;
+	float: left;
+}
+
+input {
+	display: inline;
+	width: 6em;
+	position: relative;
+	text-align: center;
+	float: left;
+	width: 25px;
+	/*top: -3em;*/
+}
+
+label {
+	display: inline-block;
+	width: 6em;
+	text-align: center;
+	/*float: left;*/
+	/*margin-right: .5em;*/
+	/*padding-top: 1.5em;*/
+}
+
+body {
+	float: left;
+	/*display: inline;*/
+	vertical-align: center
+	margin: 0 auto;
+	width: 200px;
+	height: 100px;
+}
