@@ -1,13 +1,19 @@
 #ss_button {
-/*	margin: auto;
-	text-align: center;
-	vertical-align: center;*/
 	background-image: url(images/go.png);
 	background-size: 50px 50px;
 	height: 50px;
 	width: 50px;
-	/*padding: 0;*/
 	border: none;
+	margin-right: 10px;
+}
+
+#d1 {
+	float: left
+}
+
+#d2 {
+	float: left;
+	margin-top: 10px;
 }
 
 button {
@@ -16,29 +22,25 @@ button {
 }
 
 input {
-	display: inline;
-	width: 6em;
-	position: relative;
-	text-align: center;
-	float: left;
-	width: 25px;
-	/*top: -3em;*/
+  display: inline-block;
+  width: 3em;
+  position: relative;
+  top: -3em;
+  float: left;
 }
 
 label {
-	display: inline-block;
-	width: 6em;
-	text-align: center;
-	/*float: left;*/
-	/*margin-right: .5em;*/
-	/*padding-top: 1.5em;*/
+  display: inline-block;
+  width: 3em;
+  margin-right: .5em;
+  padding-top: 1.5em;
+  float: left;
 }
 
 body {
 	float: left;
-	/*display: inline;*/
 	vertical-align: center
 	margin: 0 auto;
-	width: 200px;
-	height: 100px;
+	width: 150px;
+	height: 50px;
 }
